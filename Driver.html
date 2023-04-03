@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>División en tres columnas con color azul pastel y título en óvalo</title>
+    <style>
+      /* Define el tamaño y el color del óvalo */
+      .titulo-principal {
+        background-color: #77DDFF;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        line-height: 1.2em;
+        padding: 0.5em;
+        border-radius: 50%;
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        margin-bottom: 1em;
+      }
+      
+      /* Divide la página en tres columnas */
+      .columnas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      /* Define el ancho y el color de cada columna */
+      .columna {
+        flex-basis: calc(33.33% - 1em);
+        background-color: #BFEFFF;
+        margin-bottom: 1em;
+        padding: 1em;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titulo-principal">Los driver que se usa para hacer pruebas automatizadas en javascript</div>
+    
+    <div class="columnas">
+      <div class="columna">
+        <h2>Selenium WebDriver: </h2>
+        <p>es una herramienta de automatización de pruebas que se puede utilizar para hacer pruebas en navegadores web. Soporta varios lenguajes de programación, incluyendo JavaScript. </p>
+      </div>
+      <div class="columna">
+        <h2>Cypress: </h2>
+        <p>es una herramienta de testing end-to-end que se enfoca en hacer pruebas en aplicaciones web modernas construidas con JavaScript. Ofrece una API intuitiva y amigable para hacer pruebas de manera efectiva. </p>
+      </div>
+      <div class="columna">
+        <h2>TestCafé:  </h2>
+        <p>es una herramienta de testing que permite hacer pruebas en navegadores web utilizando JavaScript. No requiere la instalación de drivers o configuraciones complicadas, y se integra fácilmente con diferentes frameworks y herramientas de CI/CD.</p>
+      </div>
+      <div class="columna">
+        <h2>Jest: </h2>
+        <p>es un framework de pruebas para JavaScript que se enfoca en hacer pruebas unitarias y de integración para aplicaciones web. Ofrece una API simple y fácil de utilizar, y se integra fácilmente con diferentes herramientas y frameworks. </p>
+      </div>
+      <div class="columna">
+        <h2>Puppeteer: </h2>
+        <p>es una herramienta de automatización de pruebas desarrollada por Google que permite hacer pruebas en navegadores web utilizando JavaScript. Proporciona una API para controlar y automatizar Chrome y Chromium. </p>
+      </div>
+      <div class="columna">
+        <h2>Conclusiòn</h2>
+        <p>Para hacer pruebas automatizadas para JavaScript, se pueden utilizar diferentes drivers o herramientas, dependiendo del tipo de prueba que se esté realizando. Aquí te muestro algunas opciones populares, Cada herramienta tiene sus propias ventajas y desventajas, y es importante seleccionar la herramienta adecuada en función de tus necesidades y del tipo de prueba que estés realizando.</p>
+      </div>
+    </div>
+  </body>
+</html>
